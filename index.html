@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moka Pot Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header id="header">
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#How_to_Use">How to Use</a></li>
+      <li><a class="nav-link" href="#Get_One">Get One</a></li>
+    </ul>
+  </nav>
+  <img id="header-img" src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" />
+</header>
+
+  <main>
+
+    <section class="main-section" id="Introduction">
+      <h1>Introduction</h1>
+      <p>The Moka Pot is the perfect stovetop coffee maker for anyone who loves rich, bold espresso-style coffee. A staple in Italian households, the Moka Pot is as stylish as it is functional.</p>
+      <video id="video" controls width="600">
+        <source src="https://upload.wikimedia.org/wikipedia/commons/transcoded/4/45/Espressokanne.ogv/Espressokanne.ogv.720p.vp9.webm" type="video/mp4">
+        
+      </video>
+    </section>
+
+    <section class="main-section" id="How_to_Use">
+      <h1>How to Use</h1>
+      <ul>
+        <li>Fill the bottom chamber with water up to the safety valve.</li>
+        <li>Add ground coffee to the filter basket without tamping.</li>
+        <li>Assemble the Moka Pot and place it on medium heat.</li>
+        <li>Wait for the hissing sound, indicating your coffee is ready.</li>
+        <li>Remove from heat, pour, and enjoy!</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Get_One">
+      <h1>Get One</h1>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <fieldset>
+          <label for="email">Enter Your Email:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email to stay updated"
+            required
+          />
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 Moka Pot Co. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
